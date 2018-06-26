@@ -1,3 +1,10 @@
 \select@language {english}
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{5}{section.1}
+\contentsline {section}{\numberline {2}Range of Capabilities}{6}{section.2}
+\contentsline {section}{\numberline {3}Creating User’s Engagement}{7}{section.3}
+\contentsline {section}{\numberline {4}User Experience}{8}{section.4}
+\contentsline {section}{\numberline {5}Broadcasting and Market Segmentation}{9}{section.5}
+\contentsline {section}{\numberline {6}Trade and Transactions via Chat}{10}{section.6}
+\contentsline {section}{\numberline {7}Functionality}{10}{section.7}
+\contentsline {section}{\numberline {8}Crypto Currency Services}{11}{section.8}
