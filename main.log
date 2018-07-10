@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.2)  28 JUN 2018 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.2)  9 JUL 2018 22:00
 entering extended mode
 **./main.tex
 (main.tex
@@ -103,6 +103,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count89
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count90
+\lst@gtempboxa=\box30
+\lst@token=\toks17
+\lst@length=\count91
+\lst@currlwidth=\dimen103
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen106
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box31
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
@@ -118,8 +143,8 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count90
-\U@D=\dimen103
+\babel@savecnt=\count98
+\U@D=\dimen107
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -127,12 +152,12 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks17
-\MT@count=\count91
+\MT@toks=\toks18
+\MT@count=\count99
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen104
+\MT@outer@kern=\dimen108
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count92
+\MT@listname@count=\count100
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -156,51 +181,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen105
+\@emptytoks=\toks19
+\ex@=\dimen109
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen106
+\pmbraise@=\dimen110
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
-\big@size=\dimen107
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen111
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks19
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks20
-\eqnshift@=\dimen108
-\alignsep@=\dimen109
-\tagshift@=\dimen110
-\tagwidth@=\dimen111
-\totwidth@=\dimen112
-\lineht@=\dimen113
-\@envbody=\toks21
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks20
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks21
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks22
 \multlinegap=\skip59
 \multlinetaggap=\skip60
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -213,15 +238,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
 \thm@preskip=\skip61
 \thm@postskip=\skip62
 \thm@headsep=\skip63
-\dth@everypar=\toks28
+\dth@everypar=\toks29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathabx\mathabx.sty"
 Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
@@ -327,11 +352,11 @@ LaTeX Font Info:    Redeclaring math symbol \ominus on input line 659.
 LaTeX Font Info:    Redeclaring math symbol \otimes on input line 661.
 LaTeX Font Info:    Redeclaring math symbol \odot on input line 663.
 LaTeX Font Info:    Redeclaring math symbol \oslash on input line 675.
-\mayacnter=\count105
-\mayacnta=\count106
-\mayacntb=\count107
-\mayacntc=\count108
-\mayawidth=\dimen114
+\mayacnter=\count113
+\mayacnta=\count114
+\mayacntb=\count115
+\mayacntc=\count116
+\mayawidth=\dimen118
 LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
 LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
 LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
@@ -384,10 +409,10 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count109
+\Gread@gobject=\count117
 ))
-\Gin@req@height=\dimen115
-\Gin@req@width=\dimen116
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -415,17 +440,18 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count110
+\c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -478,39 +504,39 @@ G,.JBIG2,.JB2,.eps]
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count111
+\c@KVtest=\count119
 \sf@farskip=\skip64
-\sf@captopadj=\dimen124
+\sf@captopadj=\dimen128
 \sf@capskip=\skip65
 \sf@nearskip=\skip66
-\c@subfigure=\count112
-\c@subfigure@save=\count113
-\c@lofdepth=\count114
-\c@subtable=\count115
-\c@subtable@save=\count116
-\c@lotdepth=\count117
+\c@subfigure=\count120
+\c@subfigure@save=\count121
+\c@lofdepth=\count122
+\c@subtable=\count123
+\c@subtable@save=\count124
+\c@lotdepth=\count125
 \sf@top=\skip67
 \sf@bottom=\skip68
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen125
-\lightrulewidth=\dimen126
-\cmidrulewidth=\dimen127
-\belowrulesep=\dimen128
-\belowbottomsep=\dimen129
-\aboverulesep=\dimen130
-\abovetopsep=\dimen131
-\cmidrulesep=\dimen132
-\cmidrulekern=\dimen133
-\defaultaddspace=\dimen134
-\@cmidla=\count118
-\@cmidlb=\count119
-\@aboverulesep=\dimen135
-\@belowrulesep=\dimen136
-\@thisruleclass=\count120
-\@lastruleclass=\count121
-\@thisrulewidth=\dimen137
+\heavyrulewidth=\dimen129
+\lightrulewidth=\dimen130
+\cmidrulewidth=\dimen131
+\belowrulesep=\dimen132
+\belowbottomsep=\dimen133
+\aboverulesep=\dimen134
+\abovetopsep=\dimen135
+\cmidrulesep=\dimen136
+\cmidrulekern=\dimen137
+\defaultaddspace=\dimen138
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen139
+\@belowrulesep=\dimen140
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen141
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
@@ -569,14 +595,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen138
-\Hy@linkcounter=\count122
-\Hy@pagecounter=\count123
+\@linkdim=\dimen142
+\Hy@linkcounter=\count130
+\Hy@pagecounter=\count131
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count124
+\Hy@SavedSpaceFactor=\count132
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -594,16 +620,16 @@ Package hyperref Info: Plain pages ON on input line 4499.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count125
+\c@Hy@tempcnt=\count133
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen139
-\Fld@menulength=\count126
-\Field@Width=\dimen140
-\Fld@charsize=\dimen141
+\XeTeXLinkMargin=\dimen143
+\Fld@menulength=\count134
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -613,17 +639,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count127
-\c@Item=\count128
-\c@Hfootnote=\count129
+\Hy@abspage=\count135
+\c@Item=\count136
+\c@Hfootnote=\count137
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count130
-\c@bookmark@seq@number=\count131
+\Fld@listcount=\count138
+\c@bookmark@seq@number=\count139
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -648,7 +674,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 43.
+(scrartcl)              package `fancyhdr' on input line 44.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
@@ -667,28 +693,28 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count132
-\c@DefaultDepth=\count133
-\DefaultFindent=\dimen142
-\DefaultNindent=\dimen143
-\DefaultSlope=\dimen144
-\DiscardVskip=\dimen145
-\L@lbox=\box32
-\L@tbox=\box33
-\c@L@lines=\count134
-\c@L@depth=\count135
-\L@Pindent=\dimen146
-\L@Findent=\dimen147
-\L@Nindent=\dimen148
-\L@lraise=\dimen149
-\L@first=\dimen150
-\L@next=\dimen151
-\L@slope=\dimen152
-\L@height=\dimen153
-\L@novskip=\dimen154
-\LettrineWidth=\dimen155
-\LettrineHeight=\dimen156
-\LettrineDepth=\dimen157
+\c@DefaultLines=\count140
+\c@DefaultDepth=\count141
+\DefaultFindent=\dimen146
+\DefaultNindent=\dimen147
+\DefaultSlope=\dimen148
+\DiscardVskip=\dimen149
+\L@lbox=\box34
+\L@tbox=\box35
+\c@L@lines=\count142
+\c@L@depth=\count143
+\L@Pindent=\dimen150
+\L@Findent=\dimen151
+\L@Nindent=\dimen152
+\L@lraise=\dimen153
+\L@first=\dimen154
+\L@next=\dimen155
+\L@slope=\dimen156
+\L@height=\dimen157
+\L@novskip=\dimen158
+\LettrineWidth=\dimen159
+\LettrineHeight=\dimen160
+\LettrineDepth=\dimen161
 
 Loading lettrine.cfg
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
@@ -703,6 +729,9 @@ LaTeX Warning: Label `sec:level1' multiply defined.
 
 
 LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `ChatbotRepresentatio' multiply defined.
 
 
 LaTeX Warning: Label `sec:level2' multiply defined.
@@ -723,28 +752,44 @@ LaTeX Warning: Label `sec:level1' multiply defined.
 LaTeX Warning: Label `sec:level1' multiply defined.
 
 
+LaTeX Warning: Label `DiagIntent' multiply defined.
+
+
+LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `sec:level1' multiply defined.
+
+
 LaTeX Warning: Label `sec:level1' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Info: Redefining \microtypecontext on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+\c@lstlisting=\count144
+LaTeX Info: Redefining \microtypecontext on input line 100.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -760,35 +805,35 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen158
-\scratchbox=\box34
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen159
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count145
+\scratchdimen=\dimen162
+\scratchbox=\box36
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen163
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks31
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 99.
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring ON on input line 100.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count142
+\c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (main.out) (main.out)
 \@outlinefile=\write3
@@ -796,8 +841,8 @@ LaTeX Info: Redefining \nameref on input line 99.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 99.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 100.
+(lastpage)             ! on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -820,14 +865,14 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 117.
+ne 118.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-7.
+8.
 (main.toc
 Missing character: There is no ‚ in font cmssbx10!
 Missing character: There is no Ä in font cmssbx10!
@@ -857,10 +902,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 119.
+ne 120.
 
-Package tocbasic Info: character protrusion at lof deactivated on input line 11
-9.
+Package tocbasic Info: character protrusion at lof deactivated on input line 12
+0.
 (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -869,119 +914,107 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 11
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [5] [6]
+ [5]
+
+LaTeX Warning: Citation `(' on page 6 undefined on input line 148.
+
+<img/chabotInteraction.png, id=146, 1462.46375pt x 1197.47375pt>
+File: img/chabotInteraction.png Graphic file (type png)
+
+<use img/chabotInteraction.png>
+Package pdftex.def Info: img/chabotInteraction.png used on input line 162.
+(pdftex.def)             Requested size: 438.74251pt x 359.24489pt.
+
+Overfull \hbox (54.8081pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+[6]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [7 <./img/chabotInteraction.png>]
 Missing character: There is no ‚ in font phvb7t!
 Missing character: There is no Ä in font phvb7t!
 Missing character: There is no ô in font phvb7t!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 179.
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+ [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 191.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
- [8]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
+
+<img/AmoutInformation.png, id=176, 727.71875pt x 349.305pt>
+File: img/AmoutInformation.png Graphic file (type png)
+
+<use img/AmoutInformation.png>
+Package pdftex.def Info: img/AmoutInformation.png used on input line 198.
+(pdftex.def)             Requested size: 436.63461pt x 209.58461pt.
+
+Overfull \hbox (52.70021pt too wide) in paragraph at lines 198--199
+ [][] 
+ []
+
+[9]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [9]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [10 <./img/AmoutInformation.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+<img/ds.png, id=195, 430.60875pt x 366.36874pt>
+File: img/ds.png Graphic file (type png)
+ <use img/ds.png>
+Package pdftex.def Info: img/ds.png used on input line 235.
+(pdftex.def)             Requested size: 344.48746pt x 293.09538pt.
+ [11]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ñ in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
+ [12 <./img/ds.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -991,35 +1024,45 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [10]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [11]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
+ [13] <img/Crypto.png, id=217, 1027.84pt x 501.875pt>
+File: img/Crypto.png Graphic file (type png)
 
-<img/Pipeline.JPG, id=147, 271.0125pt x 128.8815pt>
-File: img/Pipeline.JPG Graphic file (type jpg)
- <use img/Pipeline.JPG>
-Package pdftex.def Info: img/Pipeline.JPG used on input line 258.
-(pdftex.def)             Requested size: 406.51773pt x 193.32176pt.
+<use img/Crypto.png>
+Package pdftex.def Info: img/Crypto.png used on input line 273.
+(pdftex.def)             Requested size: 411.12872pt x 200.74643pt.
 
-Overfull \hbox (22.58333pt too wide) in paragraph at lines 258--259
+Overfull \hbox (27.19432pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
-[12]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[14 <./img/Crypto.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+ <img/Pipeline.JPG, id=227, 271.0125pt x 128.8815pt>
+File: img/Pipeline.JPG Graphic file (type jpg)
+
+<use img/Pipeline.JPG>
+Package pdftex.def Info: img/Pipeline.JPG used on input line 302.
+(pdftex.def)             Requested size: 406.51773pt x 193.32176pt.
+
+Overfull \hbox (22.58333pt too wide) in paragraph at lines 302--303
+ [][] 
+ []
+
+[15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ñ in font cmr10!
 Missing character: There is no ¢ in font cmr10!
@@ -1044,7 +1087,34 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [13 <./img/Pipeline.JPG>] (main.bbl
+ <img/funtionality.png, id=235, 963.6pt x 356.33125pt>
+File: img/funtionality.png Graphic file (type png)
+
+<use img/funtionality.png>
+Package pdftex.def Info: img/funtionality.png used on input line 312.
+(pdftex.def)             Requested size: 481.79883pt x 178.16518pt.
+
+Overfull \hbox (97.86443pt too wide) in paragraph at lines 312--313
+ [][] 
+ []
+
+[16 <./img/Pipeline.JPG>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [17 <./img/funtionality.png>] [18] (main.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1062,42 +1132,54 @@ Missing character: There is no î in font cmr10!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[14]) 
+[19]) 
 AED: lastpage setting LastPage
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A51E4FB02C0B4C60F1A5A8779D616645;742.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: C00FFD94C6927A2578B8CFDA1380F40A;977
+(rerunfilecheck)             After:  A2E3AE7BEFDA7BB847469C46C46234E8;1060.
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 13838 strings out of 493333
- 222656 string characters out of 3139195
- 541155 words of memory out of 3000000
- 16972 multiletter control sequences out of 15000+200000
- 28358 words of font info for 129 fonts, out of 3000000 for 9000
+ 15156 strings out of 493333
+ 242269 string characters out of 3139195
+ 562127 words of memory out of 3000000
+ 18214 multiletter control sequences out of 15000+200000
+ 34344 words of font info for 161 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,51p,9103b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,11n,51p,9103b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (15 pages, 195881 bytes).
+onts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (20 pages, 1425709 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 25182 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 26263 words of extra memory for PDF output out of 29859 (max. 10000000)
 

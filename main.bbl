@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{borzestowski2012systems}
+M.~Borzestowski, M.~Trojanowicz, and M.~Strzalkowski, ``Systems and methods for
+  generating and implementing an interactive man-machine web interface based on
+  natural language processing and avatar virtual agent based character,''
+  Apr.~10 2012, uS Patent 8,156,060.
+
 \bibitem{ranoliya2017chatbot_08126057}
 B.~R. Ranoliya, N.~Raghuwanshi, and S.~Singh, ``Chatbot for university related
   faqs,'' 2017.
@@ -65,6 +71,31 @@ R.~S. Wallace, ``Alice: Artificial intelligence foundation inc,''
 \bibitem{khalaf2017their_sn}
 S.~Khalaf, ``On their tenth anniversary, mobile apps start eating their own,''
   2017.
+
+\bibitem{ramaswamy2017micro}
+S.~Ramaswamy, ``How micro-moments are changing the rules,'' \emph{Acesso em},
+  vol.~27, 2017.
+
+\bibitem{holtgraves2007perceiving}
+T.~Holtgraves, S.~J. Ross, C.~Weywadt, and T.~Han, ``Perceiving artificial
+  social agents,'' \emph{Computers in human behavior}, vol.~23, no.~5, pp.
+  2163--2174, 2007.
+
+\bibitem{lenhart2010teens}
+A.~Lenhart, R.~Ling, S.~Campbell, and K.~Purcell, ``Teens and mobile phones:
+  Text messaging explodes as teens embrace it as the centerpiece of their
+  communication strategies with friends.'' \emph{Pew Internet \& American Life
+  Project}, 2010.
+
+\bibitem{hsiao2016exploring}
+C.-H. Hsiao, J.-J. Chang, and K.-Y. Tang, ``Exploring the influential factors
+  in continuance usage of mobile social apps: Satisfaction, habit, and customer
+  value perspectives,'' \emph{Telematics and Informatics}, vol.~33, no.~2, pp.
+  342--355, 2016.
+
+\bibitem{vassinen2018rise}
+R.~Vassinen, ``The rise of conversational commerce: What brands need to know,''
+  \emph{Journal of Brand Strategy}, vol.~7, no.~1, pp. 13--22, 2018.
 
 \bibitem{lee2015natural_sn}
 \BIBentryALTinterwordspacing

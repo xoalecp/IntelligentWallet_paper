@@ -7,7 +7,8 @@
 							%twocolumn
                             ]{scrartcl}	 					% KOMA-article class
 \usepackage{float}
-\usepackage{lipsum}													% Package to create dummy text
+\usepackage{lipsum}
+\usepackage{listings}													% Package to create dummy text
 
 \usepackage[english]{babel}	
 \selectlanguage{english}
@@ -111,7 +112,7 @@ In this paper a design for a cryptocurrency chatbot based on emotions is provide
 
 \end{abstract}
 
-\keywords{chatbot, Artificial Intelligence, Machine Learning, Natural Language Processing, cryptocurrency, emotions}
+\keywords{Chatbot, Artificial Intelligence, Machine Learning, Natural Language Processing, Users Experience, Convesational Comerce, Cryptocurrency, Emotions, Social Physics}
 
 \newpage
 \tableofcontents
@@ -144,7 +145,8 @@ People today want information fast. They have little patience for a subpar exper
 In many industries now, user experience is perhaps the single most important differentiator, and it is clear that something must change to keep pace with the changing demands of beneficiaries.
 
 Users demand 24/7 attention, immediate, digestible and useful. For the companies this requirement has become an opportunity to improve their customer services models and to add their customer strategies
-experience In view of this, chatbots are positioned as main players of innovation. Gartner estimates that more than 85\% of the service centers client, will be operated by bots in 2020.
+experience In view of this, chatbots are positioned as main players of innovation. Gartner estimates that more than 85\% of the service centers client, will be operated by bots in 2020. \cite(hsiao2016exploring)
+
 Brands should become more proactive and anticipate needs of your customers. Managing interactivity will be one of the central functions of the customer experience centers. Intelligent automation will become relevant in the new stage of innovation, driven by the Artificial Intelligence, and a new generation of self-service. 
 
 Omnichannel, real-time attention and simple access to information they have become a challenge to improve the architecture of experiences. The chatbots begin to be understood as one of the ways to improve even completely revolutionize the experience that currently people have with the brands.
@@ -155,57 +157,91 @@ Chatbots can merge all the services of a company. From the purchase of movie tic
 
 Currently the push notifications are the way to do outbound marketing. Brands can schedule promotions and launch them without customization as long day Users are full of notifications out of context.
 
-The chatbots respond to the micromomentos of the people and their level of understanding allows you to make predictions of purchase. For example, if a person bought tickets to watch his favorite team's football game, the chatbot can notify you about the following entries and propose the best seats, suggest that you purchase the special edition cap or you may notice how to get to the stadium, mention nearby parking lots and can even buy food and beverages with a special promotion before reaching the event.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.30]{img/chabotInteraction.png}
+\caption{Chatbot interactions}
+\label{ChatbotRepresentatio}
+\end{figure}
+
+The chatbots respond to the micro-moments \footnote{`'Micro-moments occur when people reflexively turn to a device—increasingly a smartphone—to act on a need to learn something, do something, discover something, watch something, or buy something. They are intent-rich moments when decisions are made and preferences shape`'\cite{ramaswamy2017micro}} of the people and their level of understanding allows you to make predictions of purchase. For example, if a person bought tickets to watch his favorite team's football game, the chatbot can notify you about the following entries and propose the best seats, suggest that you purchase the special edition cap or you may notice how to get to the stadium, mention nearby parking lots and can even buy food and beverages with a special promotion before reaching the event.
 
 All without having to leave your messaging platform. It will not be necessary that he resorts to the app to buy his tickets or to the web site to consult the prices of souvenirs, or open the browser to trace your route.
 
 
 
+
+
 \section{\label{sec:level1}Creating User’s Engagement}
-Chatbots work most likely humans handle technical support. The chatbot is the medium responding when a customer starts a conversation looking for support. For example, if a trader requests the price of Litecoin, using the information available, the chatbot would immediately respond in the same way as a human would: “George, you recently asked me about Litecoin. Would you like to trade Litecoin, Bitcoin, Ether and 100+ more cryptocurrencies on our new multi-asset trading platform? Click here to find out more”.
+Chatbots work most likely humans handle technical support. The chatbot is the medium responding when a customer starts a conversation looking for support. For example, if a trader requests the price of Litecoin, using the information available, the chatbot would immediately respond in the same way as a human would: \textsf{``George, you recently asked me about Litecoin. Would you like to trade Litecoin, Bitcoin, Ether and 100+ more cryptocurrencies on our new multi-asset trading platform? Click here to find out more''}
 
-A Chatbot can create engagement between business and customers without human interaction. This engagement can be created through small talks: it could be started by sending alerts, for example: “Notify me when a Bitcoin is less than \$7000”; if this event occurs, the chatbot notifies the user adding a call to action “Would you like to trade the Bitcoin now?”. It could broadcast general messages to a wider audience to crate engagement: “Federal Reserve Governor speaks at 3:15pm EST, don’t forget to top up your account!”
 
-Chatbots could also be connected to a trading platform where the chatbot analyze the trader’s exposure to the market and warn of potential threats, for example, “The U.S. Nonfarm Payrolls are out today at 13:30 GMT, which may cause significant volatility. Would you like to manage your positions now?”
+A Chatbot can create engagement between business and customers without human interaction. This engagement can be created through small talks: it could be started by sending alerts, for example: \textsf{``Notify me when a Bitcoin is less than \$7000''}; if this event occurs, the chatbot notifies the user adding a call to action \textsf{``Would you like to trade the Bitcoin now?''}. It could broadcast general messages to a wider audience to crate engagement: \textsf{``Federal Reserve Governor speaks at 3:15pm EST, don’t forget to top up your account!''}
+
+Chatbots could also be connected to a trading platform where the chatbot analyze the trader’s exposure to the market and warn of potential threats, for example, \\textsf{``The U.S. Nonfarm Payrolls are out today at 13:30 GMT, which may cause significant volatility. Would you like to manage your positions now?''}
  
-With the past of the time the chatbot can become smarter by learning from the user’s deposit history, open positions and margin requirements so it can make calls-to-action more targeted: “Your equity is \$1040.34. Should EUR/USD drop more than 100 pips, your position “ Buy 1 lot EUR/USD \@ 1.12345” will be liquidated. Would you like to top up your account to avoid this? The suggested amount is \$450”.
+With the past of the time the chatbot can become smarter by learning from the user’s deposit history, open positions and margin requirements so it can make calls-to-action more targeted: \textsf{``Your equity is \$1040.34. Should EUR/USD drop more than 100 pips, your position “ Buy 1 lot EUR/USD \@ 1.12345” will be liquidated. Would you like to top up your account to avoid this? The suggested amount is \$450''}.
 
 \subsection{\label{sec:level2}User Experience}
 
-The way people communicate is changing in a big way. Just compare the way users communicate today with the way you did 10 or 15 year s ago. If you’re like most people, you have shi f ted away from email and phone calls and toward Facebook Messenger , Whatsapp or even SMS. Like everyone else, you probably prefer communication that is convenient , instantaneous, and always at your fingertips . And, because most of us use our smartphones as our pr imar y PC (not to mention our primary source of contact with other s ) , we prefer communication that i s smartphone- friendly. Messaging apps are the perfect solution. They’re fast and intuitive. The responses you get are short and easy to read. And people like using them.
+The way people communicate is changing in a big way. News papers compare the way users communicate today with the way they did 10 or 15 years ago. Most people, shifted away from email and phone calls and toward Facebook Messenger, Whatsapp or even SMS. Like everyone else, majority of users probably prefer communication that is convenient, instantaneous, and always at their fingertips. And, because most of the people use smartphones as the primary PC (not to mention the primary source of contact with others), people prefer communication that is smartphone- friendly. Messaging apps are the perfect solution. They are fast and intuitive. The responses users get are short and easy to read. And people like using them.
 
-According to Gartner:
+According to Gartner\cite{holtgraves2007perceiving}
 \begin{itemize}
 \item 52\% have hung up on a customer service call. 
-\item 33\% of Millennials are only willing to wait 1 to 3 minutes to get a response. 
-\item 56\% of Millennials have switched from one company to another because of underwhelming customer service.
+\item 33\% of Millennials are only willing to wait 1 to 3 minutes to get a response.\cite{lenhart2010teens} 
+\item 56\% of Millennials have switched from one company to another because of underwhelming customer service.\cite{hsiao2016exploring}
 \end{itemize}
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.60]{img/AmoutInformation.png}
+\caption{Client interactions in relation with the amount of information an the Knowledge Base Type \cite{borzestowski2012systems}}
+\label{ChatbotRepresentatio}
+\end{figure}
 
-The global use of top messaging applications surpassed the use of the top 4 social networks, and the gap has been growing, as can be evidenced by almost a 400\% increase in the use of Messaging and Social apps in 2016, accordingly to Flurry Analytics.
+The global use of top messaging applications surpassed the use of the top 4 social networks, and the gap has been growing, as can be evidenced by almost a 400\% increase in the use of Messaging and Social apps in 2016, accordingly to Flurry Analytics.\cite{hsiao2016exploring}
 
-In just about every country in the world the most frequently used app is a messaging app. They’re pervasive; everyone uses them. And this has been the case for quite some time. Messaging apps surpassed social networks in terms of monthly active users way back in early 2015.
+In just about every country in the world the most frequently used app is a messaging app. They are pervasive; everyone uses them. And this has been the case for the last 4 years. Messaging apps surpassed social networks in terms of monthly active users way back in early 2015.
 Chatbots can play a role on the frontline of customer service in English —or other languages— to help satisfy the needs of visitors and answer commonly asked questions , to give users what they want, when they need it, as quickly as possible. 
 
-Facebook Messenger is the most commonly used app in North America, while WhatsApp (also owned by Facebook) reigns supreme in Europe and Latin America. In China, WeChat is the hands-down winner. But regardless of the specific app, it is clear that messengers are the channel of choice for people all over the world when communicating with friends \& family.
+Facebook Messenger is the most commonly used app in North America, while WhatsApp (also owned by Facebook) reigns supreme in Europe and Latin America. In China, WeChat is the hands-down winner. But regardless of the specific app, it is clear that messengers are the channel of choice for people all over the world when communicating with friends and family.
 
 Messaging apps features the ability to build automated chatbots complete with images, videos, galleries,
 call- to-action buttons, and more—making it the app of choice for marketers and business owners looking to grow their business with messenger marketing.
 
-Chatbots can help you to deliver immediate information, and don’t require downloading a separate application - all is done through a familiar messenger window in order to increase user experience. Your chatbot can build a list by attracting new leads, nurture those leads by sending them content and answering their questions, and ultimately convert those leads into new paying customers.
+Chatbots can help businesses to deliver immediate information, and do not require downloading a separate application - all is done through a familiar messenger window in order to increase user experience. A chatbot can build a list by attracting new leads, nurture those leads by sending them content and answering their questions, and ultimately convert those leads into new paying customers.
+
 
 \subsection{\label{sec:level2}Broadcasting and Market Segmentation}
 
 A broadcast is a one-off, manual message that you send to people on your Messenger list. There are three different types of broadcasts you can send on Messenger Marketing, and each type has its own rules and stipulations. As a part of having a positive experience means NOT being inundated with spammy promotional messages.
 
-Subscription Broadcasts: Subscription broadcasts it’s an interactive and individualized experience for the end user. Can not contain promotions or ads, but you can also use subscription broadcasts that ask your subscribers questions. Based off of which button they click, you can then segment them into a sequence where you COULD ultimately sell them something.
-Promotional Broadcasts: a broadcast that does contain an ad or other promotional materials. You can only send promotional broadcasts to subscribers who’ve interacted with your brand on in the past 24-hours.
-Follow-Up Broadcasts: Follow-up broadcasts give you one last chance to remind your subscribers about your promotion once you send someone a Promotional Broadcast. Brands won’t be able to send any more promotional messages until the subscribers interact with their chatbot again.
+
+\begin{itemize}
+\item \textit{Broadcasts}: Subscription broadcasts it’s an interactive and individualized experience for the end user. Can not contain promotions or ads, but you can also use subscription broadcasts that ask your subscribers questions. Based off of which button they click, you can then segment them into a sequence where you COULD ultimately sell them something. 
+
+\item \textit{Promotional Broadcasts}: a broadcast that does contain an ad or other promotional materials. You can only send promotional broadcasts to subscribers who’ve interacted with your brand on in the past 24-hours.
+
+\item \textit{Follow-Up Broadcasts}: Follow-up broadcasts give you one last chance to remind your subscribers about your promotion once you send someone a Promotional Broadcast. Brands won’t be able to send any more promotional messages until the subscribers interact with their chatbot again.
+
+\item \textit{Targeting}: is where brands can determine who receives the broadcast. Brands can choose to send their broadcast to users who have been tagged in a previous message, users who have subscribed to a specific sequence, or can target by demographics.
+\end{itemize}
 
 
-Targeting: is where brands can determine who receives the broadcast. Brands can choose to send their broadcast to users who have been tagged in a previous message, users who have subscribed to a specific sequence, or can target by demographics.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.80]{img/ds.png}
+\caption{ \cite{borzestowski2012systems}}
+\label{ds}
+\end{figure}
+
+
+
 
 Brands can also add multiple conditions to get incredibly focused in the targeting —such as sending a message only to male subscribers who have been tagged as ``likes\_ invest'' and who have not subscribed to your `` Thank You For Invest'' sequence. Eventually you can send them more information about a particular product or promotion based on their needs and interests.
+
 When businesses follow an exponential strategy with their broadcasts, businesses will end up building more of a relationship with the audience. They will come to know and trust businesses, because they did not just ram a single product down their throats— businesses listened to them.
 
 
@@ -213,23 +249,31 @@ When businesses follow an exponential strategy with their broadcasts, businesses
 
 \section{\label{sec:level1}Transactions via Chatbot}
 
-\subsection{\label{sec:level1}Online Trading and Blockchain}
+\subsection{\label{sec:level1}Online Trading}
 
 Introducing Intelligent Wallet™ in the transactions sector can bring a huge change in customer experience and keep up the pace with changing customer expectations. Chatbot has the potential to automate all the repetitive questions which are time-consuming and has a huge impact on the departmentís performance. 
+
 The trading industry has a wide range of products and services for its customers. But, not all customers are attentive to every service. Chatbots can deliver personalized offers to customers based on their profile data or life events. Highly-targeted products and services are brought to the customers at the right time by the preferred messaging apps which can intensely increase conversion rates. By using this channel for communication, platforms can achieve a higher market value without annoying the customer.
-“There is a lot of interest in the FinTech community in using automated messengers to interact with customers,” Alexey Kulyk, Director of Products at the international payment provider Maxpay, shares, expressing confidence that using messengers and chatbots are more than just a fad. He believes that chatbots are becoming an integral part of any marketing and customer satisfaction plan.
+
+More and more brands are interested in doing transactions through chatbots. According Vassinen, Riku in his articule The rise of conversational commerce: What brands need to know "Three major shifts of mobile-first consumer evolution, 
+messaging platforms evolving into payment platforms, and rapid advancement of Artificial 
+Intelligence have enabled the new era of the internet: conversational commerce". Inside the Fintech communities, the interest about automated messengers to interact with customers has an amazing growth acordding to Alexey Kulyk, Director of Products at the international payment provider Maxpay. Chatbots are becoming an integral part of any marketing and customer satisfaction plan. \cite{vassinen2018rise}
+
 While Apple’s Siri and Amazon’s Alexa are household names now, most chatbots live in social media. There are over 34,000 chatbots on Facebook Messenger alone, providing information to potential customers and driving engagement. Today’s consumers need this extra engagement to be drawn in. Integrating payments capabilities into messaging apps could be the key to making chatbots the next big platform.
+
 A successful chatbot has to be able to perform a task more efficiently than can be done manually. As such, banks should develop chatbots that effectively automate basic and time-consuming tasks. This will free up human staffers' time for more complex inquiries, thus improving customer relations and loyalty.
-Currently the push notifications are the way to do outbound marketing.
-Brands can schedule promotions and launch them without customization as long day Users are full of notifications out of context.
 
-The chatbots respond to the micromomentos of the people and their level of understanding allows you to make predictions of purchase. For example, if a person bought tickets to watch his favorite team's football game, the chatbot can notify you about the following entries and propose the best seats, suggest that you purchase the special edition cap or you may notice how to get to the stadium, mention nearby parking lots and can even buy food and beverages with a special promotion before reaching the event.
 
-All without having to leave your messaging platform. It will not be necessary that he resorts to the app to buy his tickets or to the web site to consult the prices of souvenirs, or open the browser to trace your route.
- 
+
+\subsection{\label{sec:level1}Blockchain and Cryptocurrency Services}
 The basis of blockchain technology is very simple and comes down to the following algorithm: there is a record of transaction operated between two counterparties. It is sent by the DLT to a register journal on regular basis. Each counterparty has their copied sample of register journal. If someone tries to delete or edit details of a transaction, the system will not let them do that because firstly it will compare the record with other counterparties’ register journals.
 
-\subsection{\label{sec:level1}Cryptocurrency Services}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.40]{img/Crypto.png}
+\caption{ }
+\label{Crypto}
+\end{figure}
 
 Unlike the stock markets, the cryptocurrency market never closes and never sleeps, which can be a highly stressful scenario for traders and even casual investors in the industry. Users familiar with crypto investment will also be familiar with the (joyful or sinking) feeling of waking up in the morning to be greeted by a pleasant or unpleasant surprise when they check their portfolio and see large gains or losses.
 
@@ -256,23 +300,45 @@ For the flow of a dialogue system, first an input is received and processed by i
 \begin{figure}[H]
 \centering
 \includegraphics[scale=1.5]{img/Pipeline.JPG}
-\caption{Data flow that most dialogue systems possess}
+\caption{Data flow that most dialogue systems possess.}
 \label{DiagIntent}
 \end{figure}
 
 
 Intelligent Wallet ™ works so that the client specifies one or multiple “Intents” that correspond to a single action or a question the user wants to do. A show.coins intent could, for example, display the best coin to trade during the day for the user. Examples, like “What’s the bullish?” or “Give me the bullish.” The platform can then use these examples with machine learning to match users queries to the correct intent.
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.50]{img/funtionality.png}
+\caption{Funtionality}
+\label{DiagIntent}
+\end{figure}
+
 Instead of browsing a website, you will have a conversation with the bot, mirroring the type of experience you would get when you go into the complete platform.
 
 \subsection{\label{sec:level1}Emotion Detection Engine}
 
-%\section{\label{sec:level1}Conclusion}
-%Sophisticated chatbots break new ground in conversion and activation of prospects into sales. Being a diligent conversational partner, this AI remembers the history of the dialog and is continuously self-learning. Thus, a chatbot can connect with a user on a more intimate level, it has the ability to get under a traders’ skin by adding value that improves their day-to-day lives. However, only a chatbot with a well-designed architecture and advanced functionality can enrich a company’s communications. \cite{Barbara_CL2018}
-%
-%Chatbots still remain an underrated channel these days among brokerages, it is an appropriate time to explore whether your business may need one.
 
 
+\section{\label{sec:level1}Data Analytics}
+By definition: “ Analytics is the process of developing actionable insights through problem definition and the application of statistical models and analysis against existing and/or simulated future data.”
+
+Intelligent Wallet ™  uses its bot to collect data from the users and with data mining techniques such as machine -learning and big-data   we look for meaningful  patterns or knowledge in order to serve as a decision support.
+
+The use of bots in the financial industry allows to interpret forecast and understand customer behaviors 
+
+Imagine a trader giving you it's advised based on real time information and as equally as important : your risk profile.
+
+Covering both parts of the equation , tireless trader feed by the market information and patterns and the advisor giving you insights and recommendations based on your risk appetite. we are talking about a robust tool.
+
+\subsection{\label{sec:level1}Users' Basic Data}
+\subsection{\label{sec:level1}Investment Profile}
+\subsection{\label{sec:level1}Data for Social Physics Analysis}
+
+\section{\label{sec:level1}Conclusion}
+Sophisticated chatbots break new ground in conversion and activation of prospects into sales. Being a diligent conversational partner, this AI remembers the history of the dialog and is continuously self-learning. Thus, a chatbot can connect with a user on a more intimate level, it has the ability to get under a traders’ skin by adding value that improves their day-to-day lives. However, only a chatbot with a well-designed architecture and advanced functionality can enrich a company’s communications. 
+
+Chatbots still remain an underrated channel these days among brokerages, it is an appropriate time to explore whether your business may need one.
 \newpage
 \bibliography{References}
 \bibliographystyle{IEEEtran}
