@@ -108,7 +108,7 @@
 
 Among diverse types of activities, users might be able to make a reservation   at a restaurant, slide through the product carousels and make a purchase; be notified about canceling a flight to change the ticket at that precise moment and even trace the luggage; it also might be possible to learn how to trade and manage cryptocurrencies through chatbots.
 
-In this paper a design for a cryptocurrency chatbot based on emotions is provided. It answers to queries related to trading and use the human interaction to recognize emotions and predict purchasing intents.}
+In this paper Intelligent Wallet™ and its design for a cryptocurrency chatbot based on emotions is presented. its agent  answers to queries related to trading and use the human interaction to recognize emotions and predict purchasing intents all around the plataform.}
 
 \end{abstract}
 
@@ -292,9 +292,7 @@ In order to provide the Investment Advice service Intelligent Wallet ™ require
 \section{\label{sec:level1}Emotion Detection Engine Potential}
 
 \subsection{\label{sec:level1}Chatbot Engine}
-Chatbots have a high level flow where they are in the place where a complete query of the input is made, this is broken down into intentions and identities. An intention is an objective or objective expressed in the entry of a client, such as answering a question or processing an invoice payment. An entity represents an object class or a type of data that is relevant to a user's purpose. By recognizing the entities that are mentioned in the user input, the dialogue system can choose the specific actions that must be performed to fulfill an intention \cite{lee2015natural_sn} \cite{7419068Perzylo_sn}.
-
-For the flow of a dialogue system, first an input is received and processed by intentions detectors to infer in a diffuse way the intentions of the user. In parallel there is also an entity detector which also diffuses, from substrings in the input, the type of entity referred to. Finally a function is called and takes the intentions and the entities as input producing an output, this cycle occurs as many times as necessary. Although there are many variations in the different parts, this structure is the one used in a general way.\cite{lee2015natural_sn}.
+The general flow of dialogue system starts with an input that is received and processed by intentions detectors to infer in a diffuse way the intentions of the user. In parallel there is also an entity detector which also diffuses, from substrings in the input, the type of entity referred to. Finally, a function is called and takes the intentions and the entities as input producing an output, this cycle occurs as many times as necessary. Although there are many variations in the distinct parts, this structure is the one used in a general way.\cite{lee2015natural_sn}.
 
 
 \begin{figure}[H]
@@ -304,15 +302,19 @@ For the flow of a dialogue system, first an input is received and processed by i
 \label{DiagIntent}
 \end{figure}
 
-
-Intelligent Wallet ™ works so that the client specifies one or multiple “Intents” that correspond to a single action or a question the user wants to do. A show.coins intent could, for example, display the best coin to trade during the day for the user. Examples, like “What’s the bullish?” or “Give me the bullish.” The platform can then use these examples with machine learning to match users queries to the correct intent.
+In an analogous way, Chatbots have a high-level flow. A complete query of the input is made via NLP; this is broken down into intentions and identities. An intention is an objective or objective expressed in the entry of a client, such as answering a question or processing a trading transaction. An entity represents an object, class or a type of data that is relevant to a user's purpose. By recognizing the entities that are mentioned in the user input, the dialogue system can choose the specific actions that must be performed to fulfill an intention \cite{lee2015natural_sn} \cite{7419068Perzylo_sn}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=.50]{img/funtionality.png}
-\caption{Funtionality}
-\label{DiagIntent}
+\includegraphics[scale=0.75]{img/ChatbotArquitecture.JPG}
+\caption{General Chatbots Arquitecture. \cite{rahman2017programming_08288910}}
+\label{ChatbotArquitecture}
 \end{figure}
+
+
+
+Intelligent Wallet™ works so that the client specifies one or multiple “Intents” that correspond to a single action or a question the user wants to do. A show.coins intent could, for example, display the best coin to trade during the day for the user. Examples, like “What’s the bullish?” or “Give me the bullish.” The platform can then use these examples with machine learning to match users queries to the correct intent.
+
 
 Instead of browsing a website, you will have a conversation with the bot, mirroring the type of experience you would get when you go into the complete platform.
 
