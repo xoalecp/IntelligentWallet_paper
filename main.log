@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.2)  15 JUL 2018 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.2)  15 JUL 2018 12:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -873,14 +873,14 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 130.
+ne 133.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package tocbasic Info: character protrusion at toc deactivated on input line 13
-0.
+3.
 (main.toc
 Missing character: There is no ‚ in font cmssbx10!
 Missing character: There is no Ä in font cmssbx10!
@@ -910,10 +910,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 132.
+ne 135.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 13
-2.
+5.
 (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -924,26 +924,27 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
  [5]
 
-LaTeX Warning: Citation `(' on page 6 undefined on input line 160.
+LaTeX Warning: Citation `(' on page 6 undefined on input line 163.
 
-[6] <img/chabotInteraction.png, id=167, 1462.46375pt x 1197.47375pt>
+<img/chabotInteraction.png, id=161, 1462.46375pt x 1197.47375pt>
 File: img/chabotInteraction.png Graphic file (type png)
 
 <use img/chabotInteraction.png>
-Package pdftex.def Info: img/chabotInteraction.png used on input line 174.
+Package pdftex.def Info: img/chabotInteraction.png used on input line 177.
 (pdftex.def)             Requested size: 438.74251pt x 359.24489pt.
 
-Overfull \hbox (54.8081pt too wide) in paragraph at lines 174--175
+Overfull \hbox (54.8081pt too wide) in paragraph at lines 177--178
  [][] 
  []
 
+[6]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
-[7 <./img/chabotInteraction.png>]
+ [7 <./img/chabotInteraction.png>]
 Missing character: There is no ‚ in font phvb7t!
 Missing character: There is no Ä in font phvb7t!
 Missing character: There is no ô in font phvb7t!
@@ -963,23 +964,23 @@ Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ù in font cmss10!
  [8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
 
 <img/AmoutInformation.png, id=191, 727.71875pt x 349.305pt>
 File: img/AmoutInformation.png Graphic file (type png)
 
 <use img/AmoutInformation.png>
-Package pdftex.def Info: img/AmoutInformation.png used on input line 210.
+Package pdftex.def Info: img/AmoutInformation.png used on input line 213.
 (pdftex.def)             Requested size: 436.63461pt x 209.58461pt.
 
-Overfull \hbox (52.70021pt too wide) in paragraph at lines 210--211
+Overfull \hbox (52.70021pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
@@ -1007,7 +1008,7 @@ Missing character: There is no ô in font cmr10!
 <img/ds.png, id=210, 430.60875pt x 366.36874pt>
 File: img/ds.png Graphic file (type png)
  <use img/ds.png>
-Package pdftex.def Info: img/ds.png used on input line 247.
+Package pdftex.def Info: img/ds.png used on input line 250.
 (pdftex.def)             Requested size: 344.48746pt x 293.09538pt.
  [11]
 Missing character: There is no ‚ in font cmr10!
@@ -1038,10 +1039,10 @@ Missing character: There is no ô in font cmr10!
 File: img/Crypto.png Graphic file (type png)
 
 <use img/Crypto.png>
-Package pdftex.def Info: img/Crypto.png used on input line 285.
+Package pdftex.def Info: img/Crypto.png used on input line 288.
 (pdftex.def)             Requested size: 411.12872pt x 200.74643pt.
 
-Overfull \hbox (27.19432pt too wide) in paragraph at lines 285--286
+Overfull \hbox (27.19432pt too wide) in paragraph at lines 288--289
  [][] 
  []
 
@@ -1062,10 +1063,10 @@ Missing character: There is no ¢ in font cmr10!
 File: img/Pipeline.JPG Graphic file (type jpg)
 
 <use img/Pipeline.JPG>
-Package pdftex.def Info: img/Pipeline.JPG used on input line 312.
+Package pdftex.def Info: img/Pipeline.JPG used on input line 315.
 (pdftex.def)             Requested size: 428.5644pt x 248.61072pt.
 
-Overfull \hbox (44.63pt too wide) in paragraph at lines 312--313
+Overfull \hbox (44.63pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
@@ -1073,7 +1074,7 @@ Overfull \hbox (44.63pt too wide) in paragraph at lines 312--313
 File: img/ChatbotArquitecture.JPG Graphic file (type jpg)
 
 <use img/ChatbotArquitecture.JPG>
-Package pdftex.def Info: img/ChatbotArquitecture.JPG used on input line 321.
+Package pdftex.def Info: img/ChatbotArquitecture.JPG used on input line 324.
 (pdftex.def)             Requested size: 249.99226pt x 260.11pt.
  [16 <./img/Pipeline.JPG>]
 Missing character: There is no ‚ in font cmr10!
@@ -1105,17 +1106,17 @@ Missing character: There is no ù in font cmr10!
 File: img/ChatbotWorking.JPG Graphic file (type jpg)
 
 <use img/ChatbotWorking.JPG>
-Package pdftex.def Info: img/ChatbotWorking.JPG used on input line 336.
+Package pdftex.def Info: img/ChatbotWorking.JPG used on input line 339.
 (pdftex.def)             Requested size: 372.79184pt x 153.8745pt.
  [17 <./img/ChatbotArquitecture.JPG>]
 <img/emotionsDetection.JPG, id=276, 398.6895pt x 198.7425pt>
 File: img/emotionsDetection.JPG Graphic file (type jpg)
 
 <use img/emotionsDetection.JPG>
-Package pdftex.def Info: img/emotionsDetection.JPG used on input line 353.
+Package pdftex.def Info: img/emotionsDetection.JPG used on input line 356.
 (pdftex.def)             Requested size: 398.68852pt x 198.742pt.
 
-Overfull \hbox (14.75412pt too wide) in paragraph at lines 353--354
+Overfull \hbox (14.75412pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
@@ -1152,10 +1153,10 @@ Missing character: There is no ¢ in font cmr10!
 <img/Chatbot.png, id=300, 963.6pt x 356.33125pt>
 File: img/Chatbot.png Graphic file (type png)
  <use img/Chatbot.png>
-Package pdftex.def Info: img/Chatbot.png used on input line 381.
+Package pdftex.def Info: img/Chatbot.png used on input line 384.
 (pdftex.def)             Requested size: 385.43317pt x 142.52997pt.
 
-Overfull \hbox (1.49876pt too wide) in paragraph at lines 381--382
+Overfull \hbox (1.49876pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
@@ -1176,10 +1177,10 @@ Missing character: There is no ô in font cmr10!
 <img/Risk.JPG, id=348, 515.526pt x 126.4725pt>
 File: img/Risk.JPG Graphic file (type jpg)
  <use img/Risk.JPG>
-Package pdftex.def Info: img/Risk.JPG used on input line 480.
+Package pdftex.def Info: img/Risk.JPG used on input line 483.
 (pdftex.def)             Requested size: 412.42137pt x 101.17813pt.
 
-Overfull \hbox (28.48697pt too wide) in paragraph at lines 480--481
+Overfull \hbox (28.48697pt too wide) in paragraph at lines 483--484
  [][] 
  []
 
@@ -1214,11 +1215,11 @@ Missing character: There is no î in font cmr10!
 [25] [26]) 
 AED: lastpage setting LastPage
 [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 496.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 496.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 499.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 499.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 496.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 496.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 499.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 499.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 04A38293D627861514CE7AB9CB63F870;1007.
 
@@ -1228,16 +1229,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 496.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 499.
  ) 
 Here is how much of TeX's memory you used:
- 15547 strings out of 493333
- 248799 string characters out of 3139195
- 571391 words of memory out of 3000000
+ 15569 strings out of 493333
+ 248967 string characters out of 3139195
+ 570391 words of memory out of 3000000
  18541 multiletter control sequences out of 15000+200000
- 34106 words of font info for 155 fonts, out of 3000000 for 9000
+ 34766 words of font info for 166 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,11n,51p,9103b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,11n,51p,9103b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -1250,7 +1251,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (27 pages, 1652838 bytes).
+Output written on main.pdf (27 pages, 1654790 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  131 named destinations out of 1000 (max. 500000)
