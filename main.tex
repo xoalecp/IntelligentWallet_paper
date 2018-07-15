@@ -8,7 +8,8 @@
                             ]{scrartcl}	 					% KOMA-article class
 \usepackage{float}
 \usepackage{lipsum}
-\usepackage{listings}													% Package to create dummy text
+\usepackage{listings}
+\usepackage[shortlabels]{enumitem}													% Package to create dummy text
 
 \usepackage[english]{babel}	
 \selectlanguage{english}
@@ -99,6 +100,17 @@
 %%% Begin document
 \begin{document}
 \maketitle
+\centering
+Rebolledo Jovan
+ 
+Cedillo Xochitl
+ 
+Enriquez Abraham 
+
+Valle Lilia
+
+Gomez Tonatihu
+
 
 
 \newpage
@@ -178,7 +190,7 @@ Chatbots work most likely humans handle technical support. The chatbot is the me
 
 A Chatbot can create engagement between business and customers without human interaction. This engagement can be created through small talks: it could be started by sending alerts, for example: \textsf{``Notify me when a Bitcoin is less than \$7000''}; if this event occurs, the chatbot notifies the user adding a call to action \textsf{``Would you like to trade the Bitcoin now?''}. It could broadcast general messages to a wider audience to crate engagement: \textsf{``Federal Reserve Governor speaks at 3:15pm EST, don’t forget to top up your account!''}
 
-Chatbots could also be connected to a trading platform where the chatbot analyze the trader’s exposure to the market and warn of potential threats, for example, \\textsf{``The U.S. Nonfarm Payrolls are out today at 13:30 GMT, which may cause significant volatility. Would you like to manage your positions now?''}
+Chatbots could also be connected to a trading platform where the chatbot analyze the trader’s exposure to the market and warn of potential threats, for example, \textsf{``The U.S. Nonfarm Payrolls are out today at 13:30 GMT, which may cause significant volatility. Would you like to manage your positions now?''}
  
 With the past of the time the chatbot can become smarter by learning from the user’s deposit history, open positions and margin requirements so it can make calls-to-action more targeted: \textsf{``Your equity is \$1040.34. Should EUR/USD drop more than 100 pips, your position “ Buy 1 lot EUR/USD \@ 1.12345” will be liquidated. Would you like to top up your account to avoid this? The suggested amount is \$450''}.
 
@@ -233,7 +245,7 @@ A broadcast is a one-off, manual message that you send to people on your Messeng
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.80]{img/ds.png}
-\caption{ \cite{borzestowski2012systems}}
+\caption{Knowledge Bases and layers that can be used for bradcasting and market segmentation}
 \label{ds}
 \end{figure}
 
@@ -271,7 +283,7 @@ The basis of blockchain technology is very simple and comes down to the followin
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.40]{img/Crypto.png}
-\caption{ }
+\caption{Blockchain interaction }
 \label{Crypto}
 \end{figure}
 
@@ -289,7 +301,7 @@ In order to provide the Investment Advice service Intelligent Wallet ™ require
 
 
 
-\section{\label{sec:level1}Emotion Detection Engine Potential}
+\section{\label{sec:level1}Functionality}
 
 \subsection{\label{sec:level1}Chatbot Engine}
 The general flow of dialogue system starts with an input that is received and processed by intentions detectors to infer in a diffuse way the intentions of the user. In parallel there is also an entity detector which also diffuses, from substrings in the input, the type of entity referred to. Finally, a function is called and takes the intentions and the entities as input producing an output, this cycle occurs as many times as necessary. Although there are many variations in the distinct parts, this structure is the one used in a general way.\cite{lee2015natural_sn}.
@@ -297,7 +309,7 @@ The general flow of dialogue system starts with an input that is received and pr
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=1.5]{img/Pipeline.JPG}
+\includegraphics[scale=.6]{img/Pipeline.JPG}
 \caption{Data flow that most dialogue systems possess.}
 \label{DiagIntent}
 \end{figure}
@@ -306,8 +318,8 @@ In an analogous way, Chatbots have a high-level flow. A complete query of the in
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.75]{img/ChatbotArquitecture.JPG}
-\caption{General Chatbots Arquitecture. \cite{rahman2017programming_08288910}}
+\includegraphics[scale=0.7]{img/ChatbotArquitecture.JPG}
+\caption{General arquitecture of a chatbot. \cite{rahman2017programming_08288910}}
 \label{ChatbotArquitecture}
 \end{figure}
 
@@ -316,26 +328,163 @@ In an analogous way, Chatbots have a high-level flow. A complete query of the in
 Intelligent Wallet™ works so that the client specifies one or multiple “Intents” that correspond to a single action or a question the user wants to do. A show.coins intent could, for example, display the best coin to trade during the day for the user. Examples, like “What’s the bullish?” or “Give me the bullish.” The platform can then use these examples with machine learning to match users queries to the correct intent.
 
 
-Instead of browsing a website, you will have a conversation with the bot, mirroring the type of experience you would get when you go into the complete platform.
+A chatbot is faster and less confusing than a web or mobile application. So instead of browsing a website, the user can have a conversation with the bot, mirroring the type of experience that they would get when they go into the complete platform. This is possible thanks to a bidirectional communication between the user messaging platform and the chatbot server where an API is used as a main interface\footnote{API (Application Programming interface):``Set of functions or procedures used by a computer or mobile devices to access operating system services, software libraries or other systems'' \cite{ blokdyk2017application}}. See figure \ref{fig:ChatbotQuery}.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{img/ChatbotWorking.JPG}
+\caption{How querys are made to Chatbot. \cite{rahman2017programming_08288910}}
+\label{fig:ChatbotQuery}
+\end{figure}
+
 
 \subsection{\label{sec:level1}Emotion Detection Engine}
+Research about human emotions recognition is way too long but recently, the approaches where AI is involved, are resulting successful for this purpose. Some techniques that haven been applied are static image processing with convolutional neural networks (CNN)\cite {kim2016hierarchical}, recurrent neural networks for a temporal domain (RNN)\cite{ chao2016audio} or attention networks\cite{ lee2012towards }. 
+
+ 
+Text, image and video, and audio are the most convenient inputs for emotion recognition on mobile social network services. By using an structure of deep CNNs, a 67\% of accuracy can be reached on an average of the 7-emotional states happiness, surprise, anger, disgust, sadness, fear, and neutral.\cite{lee2017chatbot_07881752}\cite{oh2017chatbot_0796482}
 
 
+Some limitation about the use of a single feature exists. People infer emotions not only by the sound and image patterns but also by integrated information and circumstance condition; this same logic must by applied for a chatbot to deduce an emotion. So an integration multimodal information is essential.See figure \ref{RNN}.\cite{lee2017chatbot_07881752}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{img/emotionsDetection.JPG}
+\caption{Emotions detection engine. \cite{lee2017chatbot_07881752}}
+\label{RNN}
+\end{figure}
+
+Once the emotion is detected, it will be an usefull input for the readjustment of the uses risk profile.
 
 \section{\label{sec:level1}Data Analytics}
-By definition: “ Analytics is the process of developing actionable insights through problem definition and the application of statistical models and analysis against existing and/or simulated future data.”
+Important Analytics can be obtained by a Chatbot. By definition: ``Analytics is the process of developing actionable insights through problem definition and the application of statistical models and analysis against existing and/or simulated future data.’’ \cite{cooper2012analytics_20519214}. Intelligent Wallet ™ uses its bot to collect data from the users and with data mining techniques such as machine -learning and big-data.  Meaningful patterns or knowledge are looked to serve as support in a decision making.\cite{russom2011big_201604201807}
 
-Intelligent Wallet ™  uses its bot to collect data from the users and with data mining techniques such as machine -learning and big-data   we look for meaningful  patterns or knowledge in order to serve as a decision support.
+The use of bots in the financial industry allows to interpret forecast and understand customer behaviors which can later turn data into profitable insights. For instance, a trader giving it's advised based on real time information and as equally as important: your risk profile.
 
-The use of bots in the financial industry allows to interpret forecast and understand customer behaviors 
+Covering both parts of the equation; A tireless trader feed by the market information patterns and the advisor giving you insights and recommendations based on your risk appetite to improve the user experience.
 
-Imagine a trader giving you it's advised based on real time information and as equally as important : your risk profile.
+ ``Giving them what they want, when they need it as quickly as possible’’ turns Intelligent Wallet ™ into a robust tool.
 
-Covering both parts of the equation , tireless trader feed by the market information and patterns and the advisor giving you insights and recommendations based on your risk appetite. we are talking about a robust tool.
+\subsection{\label{sec:level1}The Psychology of the Markets}
 
-\subsection{\label{sec:level1}Users' Basic Data}
-\subsection{\label{sec:level1}Investment Profile}
-\subsection{\label{sec:level1}Data for Social Physics Analysis}
+The markets are a mirror from the Psychology of the people that uses them and understanding the Irrationality of the human decision-making process is the key to developing product features and value proposition to test in the market.\cite{do2011behavioral_22029239}
+
+In 2017 Professor Richard Thaler from the University of Chicago won the Nobel Memorial Prize for his work on the evolution of Behavioral Economics this branch of science it is defined as ``The effects of psychological, cognitive, emotional, cultural and social factors on the economic decisions of individuals and institutions and how those decision vary from those implied by classical theory’’.\cite{appelbaum2017nobel_sn}
+
+Behavioral Economics is not just a catchy topic nowadays. It is a social science used on fields and issues such as Political Affairs, Financial Markets and Marketing Campaigns. We took the essence of it: Instead of view people or users as some rational actors having the approach of studying human bias and temptation is the approach that Intelligent Wallet ™ uses.
+
+It is possible to build the bridge between financial and psychological analysis of decision making, how? The answer is by calculating your risk profile and appetite based first in the questionnaires given at the beginning; then, it will be constantly readjusted by the user's decisions, emotions and behavior inside the platform/bot.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{img/Chatbot.png}
+\caption{Interacion with chatbot.}
+\label{Chatbot}
+\end{figure}
+
+\subsection{\label{sec:level1}Risk Tolerance from Secure Profile to Speculative Profile}
+According Morningstar Information Service, the risk tolerance of investor can be categorized in five main profiles \cite{currentreport_risktolerancequest}:
+
+\begin{itemize}
+\item \textit{Conservative:} A Conservative user values protecting principal over seeking appreciation. this investor is comfortable accepting lower returns for more liquidity and stability. This profile is likely to produce returns that are based on prevailing interest rates which may or may not keep pace with inflation.
+
+\item \textit{Cautious:}  A Cautious user values achieving low level of return coupled with a low level of risk. Values can fluctuate and may fall below the original investment. In normal market conditions fluctuation is expected to be low and this individual is comfortable with this scenario.
+
+\item \textit{Balanced /Moderate:}  A Balanced user values reducing risk and enhancing returns equally, this investor is willing to accept modest risks to seek higher long-terms returns, Values can fluctuate significantly and may fall substantially below the original investment and this individual is comfortable with this scenario.
+
+\item \textit{Adventurous/Aggressive:} An Adventurous user are generally comfortable achieving a high level of return on the investment coupled with high level of risk, values can fluctuate significantly and may fall substantially below the original investment and this individual is comfortable with this scenario.
+ 
+\item \textit{(Very) Aggressive:} An Aggressive user values maximizing returns and is willing to accept substantial risk. This investor may endure extensive volatility and significant losses, values can fluctuate significantly and may fall substantially below the original investment and this individual is comfortable with this scenario.
+\end{itemize}
+
+
+The Questionnaire is divided in the 3 main points  
+\begin{enumerate}[-]
+  \item \textit{Time Horizon:} The current situation and future income needs.
+  \begin{enumerate}[1.]
+    \item What is your current age?
+    \begin{enumerate}[a)]
+      \item Less than 25 (5 points)
+      \item 25-30 (4 points)
+      \item 31-40 (3 points))
+      \item 41-50 (2 points)
+      \item Older than 50 (1 points) 
+    \end{enumerate}
+    \item When do you expect to start drawing income?
+    \begin{enumerate}[a)]
+      \item Not for at least 6 months (1 points) 
+      \item In 6 months to 1 year (2 points)
+      \item 1 - 2 years (3 points)
+      \item 2 -3 years (4 points)
+      \item More than 3 years (5 points) 
+    \end{enumerate}
+  \end{enumerate}
+ \item \textit{Long-Term Expectations and Goals:} The expectation of how an investment should perform over the long term
+  \begin{enumerate}[1.]
+    \item What is your goal for this investment?
+    \begin{enumerate}[a)]
+      \item To grow aggressively (5 points)
+      \item To grow significantly (4 points)
+      \item To grow moderately (3 points)
+      \item To grow with caution (2 points)
+      \item To Avoid losing money (1 points) 
+    \end{enumerate}
+    
+    \item Assuming a normal market condition, what would you expect from this investment over time?
+    \begin{enumerate}[a)]
+      \item To generally keep pace with the cryptocurrency market (5 points)
+      \item To trail the cryptocurrency market, but make a good profit (4 points)
+      \item To trail the cryptocurrency market and make a moderate profit (3 points)
+      \item To have some stability, but make modest profit (2 points)
+      \item To have a high degree of stability but make small profits (1 points) 
+    \end{enumerate}
+  
+    \item Suppose the Cryptocurrency market performs poorly over the next 2 years, what would you expect from this investment over time?
+    \begin{enumerate}[a)]
+      \item To lose money (5 points) 
+      \item To make nothing or a very little gain (4 points)
+      \item To make a little gain (3 points)
+      \item To make a modest gain (2 points)
+      \item To be little affected by what happens in the cryptocurrency market (1 points) 
+    \end{enumerate}
+  \end{enumerate}
+  
+    \item \textit{Short-Term Risk Attitudes} The expectations and attitude toward short- term volatility.
+  \begin{enumerate}[1.]
+    \item Which of these statements would best describe your attitude about the next three years performance of this investment?
+    \begin{enumerate}[a)]
+      \item I don’t mind if I lose money (5 points)
+      \item I can tolerate a loss (4 points))
+      \item I can tolerate a small loss (3 points)
+      \item I’d have a hard time tolerating any losses (2 points)
+      \item I need to see at least a little return (1 points) 
+    \end{enumerate}
+    \item Which of these statements would best describe your attitudes about the next three months performance of this investment?
+    \begin{enumerate}[a)]
+      \item a.	Who cares? one month means nothing (5 points) 
+      \item b.	I wouldn't worry about losses in that time frame (4 points)
+      \item c.	If I suffered a loss of greater than 10\%, I’d get concerned (3 points)
+      \item d.	I can only tolerate small short-term losses (2 points)
+      \item e.	I’d have a hard time accepting any losses. (1 points) 
+    \end{enumerate}
+  \end{enumerate}
+\end{enumerate}
+
+\textbf{Risk Tolerance Results}:
+
+The methodology consists on adding all the points for the 7 answers and then classified it by the number of points obtained. Ser figure \ref{RiskTolerance} 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{img/Risk.JPG}
+\caption{Clasification of risk tolerance profiles. \cite{currentreport_risktolerancequest}}
+\label{RiskTolerance}
+\end{figure}
+
+
+At the beginning we categorize the user in one of these profiles, then the risk profile varies from decisions giving the opportunity to recalculate your profile. having and adapting risk appetite tool improves the user experience, satisfaction and as equal as  important loyalty to the platform/chat/tool.
+
 
 \section{\label{sec:level1}Conclusion}
 Sophisticated chatbots break new ground in conversion and activation of prospects into sales. Being a diligent conversational partner, this AI remembers the history of the dialog and is continuously self-learning. Thus, a chatbot can connect with a user on a more intimate level, it has the ability to get under a traders’ skin by adding value that improves their day-to-day lives. However, only a chatbot with a well-designed architecture and advanced functionality can enrich a company’s communications. 

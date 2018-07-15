@@ -33,6 +33,19 @@ A.~Rahman, A.~Al~Mamun, and A.~Islam, ``Programming challenges of chatbot:
   (R10-HTC), 2017 IEEE Region 10}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
   2017, pp. 75--78.
 
+\bibitem{lee2017chatbot_07881752}
+D.~Lee, K.-J. Oh, and H.-J. Choi, ``The chatbot feels you-a counseling service
+  using emotional response generation,'' in \emph{Big Data and Smart Computing
+  (BigComp), 2017 IEEE International Conference on}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2017, pp. 437--440.
+
+\bibitem{currentreport_risktolerancequest}
+\BIBentryALTinterwordspacing
+``\BIBforeignlanguage{English}{Risk tolerance questionnaire},'' Jul 31 2012.
+  [Online]. Available:
+  \url{https://corporate.morningstar.com/us/documents/nasdcompliance/iwt_currentreport_risktolerancequest.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{ranoliya2017chatbot_08126057}
 B.~R. Ranoliya, N.~Raghuwanshi, and S.~Singh, ``Chatbot for university related
   faqs,'' 2017.
@@ -116,5 +129,54 @@ A.~Perzylo, S.~Griffiths, R.~Lafrenz, and A.~Knoll, ``Generating grammars for
   natural language understanding from knowledge about actions and objects,'' in
   \emph{2015 IEEE International Conference on Robotics and Biomimetics
   (ROBIO)}, Dec 2015, pp. 2008--2013.
+
+\bibitem{blokdyk2017application}
+\BIBentryALTinterwordspacing
+G.~Blokdyk, \emph{Application Programming Interface: Implement, Administer,
+  Manage}.\hskip 1em plus 0.5em minus 0.4em\relax CreateSpace Independent
+  Publishing Platform, 2017. [Online]. Available:
+  \url{https://books.google.com.mx/books?id=hoQ\_tAEACAAJ}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kim2016hierarchical}
+B.-K. Kim, J.~Roh, S.-Y. Dong, and S.-Y. Lee, ``Hierarchical committee of deep
+  convolutional neural networks for robust facial expression recognition,''
+  \emph{Journal on Multimodal User Interfaces}, vol.~10, no.~2, pp. 173--189,
+  2016.
+
+\bibitem{chao2016audio}
+L.~Chao, J.~Tao, M.~Yang, Y.~Li, and Z.~Wen, ``Audio visual emotion recognition
+  with temporal alignment and perception attention,'' \emph{arXiv preprint
+  arXiv:1603.08321}, 2016.
+
+\bibitem{lee2012towards}
+H.~Lee, Y.~S. Choi, S.~Lee, and I.~Park, ``Towards unobtrusive emotion
+  recognition for affective social communication,'' in \emph{Consumer
+  Communications and Networking Conference (CCNC), 2012 IEEE}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2012, pp. 260--264.
+
+\bibitem{oh2017chatbot_0796482}
+K.-J. Oh, D.~Lee, B.~Ko, and H.-J. Choi, ``A chatbot for psychiatric counseling
+  in mental healthcare service based on emotional dialogue analysis and
+  sentence generation,'' in \emph{Mobile Data Management (MDM), 2017 18th IEEE
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2017, pp. 371--375.
+
+\bibitem{cooper2012analytics_20519214}
+A.~Cooper \emph{et~al.}, ``What is analytics? definition and essential
+  characteristics,'' \emph{CETIS Analytics Series}, vol.~1, no.~5, pp. 1--10,
+  2012.
+
+\bibitem{russom2011big_201604201807}
+P.~Russom \emph{et~al.}, ``Big data analytics,'' \emph{TDWI best practices
+  report, fourth quarter}, vol.~19, no.~4, pp. 1--34, 2011.
+
+\bibitem{do2011behavioral_22029239}
+W.~B. E. T.~T. Do, ``Behavioral economics: Past, present, future,''
+  \emph{Advances in behavioral economics}, p.~1, 2011.
+
+\bibitem{appelbaum2017nobel_sn}
+B.~Appelbaum, ``Nobel in economics is awarded to richard thaler,'' \emph{New
+  York Times}, 2017.
 
 \end{thebibliography}

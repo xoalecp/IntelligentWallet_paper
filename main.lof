@@ -2,7 +2,11 @@
 \select@language {english}
 \contentsline {figure}{\numberline {1}{\ignorespaces Chatbot interactions\relax }}{7}{figure.caption.3}
 \contentsline {figure}{\numberline {2}{\ignorespaces Client interactions in relation with the amount of information an the Knowledge Base Type \cite {borzestowski2012systems}\relax }}{10}{figure.caption.4}
-\contentsline {figure}{\numberline {3}{\ignorespaces \cite {borzestowski2012systems}\relax }}{12}{figure.caption.5}
-\contentsline {figure}{\numberline {4}{\ignorespaces \relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Knowledge Bases and layers that can be used for bradcasting and market segmentation\relax }}{12}{figure.caption.5}
+\contentsline {figure}{\numberline {4}{\ignorespaces Blockchain interaction \relax }}{14}{figure.caption.6}
 \contentsline {figure}{\numberline {5}{\ignorespaces Data flow that most dialogue systems possess.\relax }}{16}{figure.caption.7}
-\contentsline {figure}{\numberline {6}{\ignorespaces General Chatbots Arquitecture. \cite {rahman2017programming_08288910}\relax }}{17}{figure.caption.8}
+\contentsline {figure}{\numberline {6}{\ignorespaces General arquitecture of a chatbot. \cite {rahman2017programming_08288910}\relax }}{17}{figure.caption.8}
+\contentsline {figure}{\numberline {7}{\ignorespaces How querys are made to Chatbot. \cite {rahman2017programming_08288910}\relax }}{18}{figure.caption.9}
+\contentsline {figure}{\numberline {8}{\ignorespaces Emotions detection engine. \cite {lee2017chatbot_07881752}\relax }}{19}{figure.caption.10}
+\contentsline {figure}{\numberline {9}{\ignorespaces Interacion with chatbot.\relax }}{20}{figure.caption.11}
+\contentsline {figure}{\numberline {10}{\ignorespaces Clasification of risk tolerance profiles. \cite {currentreport_risktolerancequest}\relax }}{24}{figure.caption.12}
